@@ -76,9 +76,9 @@
 ##### LIBERAR PORTA 3306
 * 5 - Crie uma regra no firewall do servidor liberando o protocolo tcp na porta 3306 no seu servidor
 
+##### CRIAR CONEXÃO
+* 6 - Vá para o Mysql Workbench e cria uma conexão para o servidor na porta 3306
 
-
- 
 </details>
 
 #### *LICENSE*
