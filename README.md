@@ -1,8 +1,13 @@
 # API-REST
 Criação de uma API REST
 
+<details>
+  <summary>Configuração do ambiente</summary>
+  
+  
 ### Instalações necessárias local:
 *Insomnia*, *MySql Workbench*
+
 ##### WINDOWS:
 * 1 - bash: `choco install insomnia-rest-api-client`
 * 2 - bash: `choco install mysql.workbench`
@@ -71,4 +76,8 @@ Criação de uma API REST
 ##### LIBERAR PORTA 3306
 * 5 - Crie uma regra no firewall do servidor liberando o protocolo tcp na porta 3306 no seu servidor
 
+
+
+ 
+</details>
 
