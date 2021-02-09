@@ -81,3 +81,6 @@
  
 </details>
 
+#### *LICENSE*
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/zWeeeeelll/API-REST/blob/main/LICENSE) 
+
