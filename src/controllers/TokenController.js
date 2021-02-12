@@ -11,16 +11,16 @@ class TokenController {
       });
     }
 
-    const user = await User.findOne({ where: { email: email } });
+    const user = await User.findOne({ where: { email } });
 
     if(!user) {
       return res.status(401).json({
-        errors: ['Usário não existe'],
+        errors: ['Usuário não existe'],
       });
     }
 
 
-    if(!(await user.passwordIdValid(password))){
+    if(!(await user.passwordIsValid(password))){
       return res.status(401).json({
         errors: ['Senha inválida'],
       });
@@ -32,7 +32,7 @@ class TokenController {
     });
 
 
-    return res.json({ token });
+    return res.json({ token, user: { nome: user.nome, id, email } });
     };
 };
 
